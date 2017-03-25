@@ -8,6 +8,9 @@
 
 #import "HQ_AlrertView.h"
 
+#define kSCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define kSCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+
 #define kLeftPadding (15)
 
 typedef enum : NSUInteger {
